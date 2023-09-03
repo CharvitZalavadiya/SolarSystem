@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  height: auto;
+  background-color: black;
+  color: cyan;
+  font-family: "Rubik", sans-serif;
+  font-size: 50px;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  width: 10vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+
+
+
+
+/* main page */
+
+
+
+
+
+.solar {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.container .solar img {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  filter: brightness(70%);
+}
+
+.container .solar-content {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  top: 80%;
+  right: 1%;
+  color: rgba(255, 255, 255);
+  font-size: 100px;
+}
+
+
+
+
+
+/* sun and planets */
+
+
+
+
+
+.planets {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.planets-bg img {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.glassmorphism {
+  width: 85vw;
+  height: 95vh;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  backdrop-filter: blur(2px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  overflow-y: hidden;
+}
+
+.planet-cards{
+  width: 85vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  overflow-y: hidden;
+  position: relative;
+}

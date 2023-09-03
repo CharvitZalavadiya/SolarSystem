@@ -1,0 +1,380 @@
+.card {
+  width: 20vw;
+  height: 80vh;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in;
+  position: relative;
+  background-color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.card .card-img {
+  width: 19vw;
+  height: 30vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .planets .card img {
+  object-fit: cover;
+  width: 19vw;
+  height: 28vh;
+}
+
+.card .card-content {
+  width: 19.7vw;
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: black;
+}
+
+.card .card-content h3 {
+  width: 20vw;
+  height: 10vh;
+  font-size: 3vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card .card-content h6 {
+  font-size: large;
+  line-height: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 20vw;
+  height: 20vh;
+  padding-left: 10px;
+}
+
+.get-more-info {
+  width: 20vw;
+  height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-more-info button {
+  width: 15vw;
+  height: 8vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+
+.get-more-info button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+
+
+
+
+/* content background */
+
+
+
+
+
+.sun .sun-content {
+  background-image: linear-gradient(180deg, orange, black);
+}
+
+.mercury .mercury-content {
+  background-image: linear-gradient(180deg, darkgrey, black);
+}
+
+.venus .venus-content {
+  background-image: linear-gradient(180deg, #fada5e, black);
+}
+
+.earth .earth-content {
+  background-image: linear-gradient(180deg, rgb(27, 168, 215), black);
+}
+
+.mars .mars-content {
+  background-image: linear-gradient(180deg, #b93042, black);
+}
+
+.jupiter .jupiter-content {
+  background-image: linear-gradient(180deg, #987654, black);
+}
+
+.saturn .saturn-content {
+  background-image: linear-gradient(180deg, #eed5b1, black);
+}
+
+.uranus .uranus-content {
+  background-image: linear-gradient(180deg, #088f8f, black);
+}
+
+.neptune .neptune-content {
+  background-image: linear-gradient(180deg, #3f3fce, black);
+}
+
+.pluto .pluto-content {
+  background-image: linear-gradient(180deg, #c5a06b, black);
+}
+
+
+
+
+
+/* get more info */
+
+
+
+
+
+.sun .get-more-info button {
+  border: 1.5px solid orange;
+  justify-content: center;
+  align-content: center;
+  color: orange;
+  display: flex;
+  flex-wrap: wrap;
+  .gmi-sun {
+    text-decoration: none;
+    color: orange;
+  }
+}
+
+.sun .get-more-info button:hover {
+  background-color: orange;
+  color: black;
+  font-weight: 600;
+  .gmi-sun {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.mercury .get-more-info button {
+  border: 1.5px solid darkgrey;
+  justify-content: center;
+  align-content: center;
+  color: darkgrey;
+  display: flex;
+  flex-wrap: wrap;
+  .gmi-mercury {
+    text-decoration: none;
+    color: darkgrey;
+  }
+}
+
+.mercury .get-more-info button:hover {
+  color: black;
+  background-color: darkgray;
+  font-weight: 600;
+  .gmi-mercury {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.venus .get-more-info button {
+  border: 1.5px solid #fada5e;
+  justify-content: center;
+  align-content: center;
+  color: #fada5e;
+  display: flex;
+  flex-wrap: wrap;
+  .gmi-venus {
+    text-decoration: none;
+    color: #fada5e;
+  }
+}
+
+.venus .get-more-info button:hover {
+  color: black;
+  background-color: #fada5e;
+  font-weight: 600;
+  .gmi-venus {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.earth .get-more-info button {
+  border: 1.5px solid rgb(27, 168, 215);
+  justify-content: center;
+  align-content: center;
+  color: rgb(27, 168, 215);
+  display: flex;
+  flex-wrap: wrap;
+  .gmi-earth {
+    text-decoration: none;
+    color: rgb(27, 168, 215);
+  }
+}
+
+.earth .get-more-info button:hover {
+  color: black;
+  background-color: rgb(27, 168, 215);
+  font-weight: 600;
+  .gmi-earth {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.mars .get-more-info button {
+  border: 1.5px solid #b93042;
+  justify-content: center;
+  align-content: center;
+  color: #b93042;
+  display: flex;
+  flex-wrap: wrap;
+  .gmi-mars {
+    text-decoration: none;
+    color: #b93042;
+  }
+}
+
+.mars .get-more-info button:hover {
+  color: black;
+  background-color: #b93042;
+  font-weight: 600;
+  .gmi-mars {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.jupiter .get-more-info button {
+  border: 1.5px solid #987654;
+  justify-content: center;
+  align-content: center;
+  color: #987654;
+  display: flex;
+  flex-wrap: wrap;
+  .gmi-jupiter {
+    text-decoration: none;
+    color: #987654;
+  }
+}
+
+.jupiter .get-more-info button:hover {
+  color: black;
+  background-color: #987654;
+  font-weight: 600;
+  .gmi-jupiter {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.saturn .get-more-info button {
+  border: 1.5px solid #eed5b1;
+  justify-content: center;
+  align-content: center;
+  color: #eed5ee;
+  display: flex;
+  flex-wrap: wrap;
+  .gmi-saturn {
+    text-decoration: none;
+    color: #eed5b1;
+  }
+}
+
+.saturn .get-more-info button:hover {
+  color: black;
+  background-color: #eed5b1;
+  font-weight: 600;
+  .gmi-saturn {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.uranus .get-more-info button {
+  border: 1.5px solid #088f8f;
+  justify-content: center;
+  align-content: center;
+  color: #088f8f;
+  display: flex;
+  flex-wrap: wrap;
+  .gmi-uranus {
+    text-decoration: none;
+    color: #088f8f;
+  }
+}
+
+.uranus .get-more-info button:hover {
+  color: black;
+  background-color: #088f8f;
+  font-weight: 600;
+  .gmi-uranus {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.neptune .get-more-info button {
+  border: 1.5px solid #3f3fce;
+  justify-content: center;
+  align-content: center;
+  color: #3f3fce;
+  display: flex;
+  flex-wrap: wrap;
+  .gmi-neptune {
+    text-decoration: none;
+    color: #3f3fce;
+  }
+}
+
+.neptune .get-more-info button:hover {
+  color: black;
+  background-color: #3f3fce;
+  font-weight: 600;
+  .gmi-neptune {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.pluto .get-more-info button {
+  border: 1.5px solid #c5a06b;
+  justify-content: center;
+  align-content: center;
+  color: #c5a06b;
+  display: flex;
+  flex-wrap: wrap;
+  .gmi-pluto {
+    text-decoration: none;
+    color: #c5a06b;
+  }
+}
+
+.pluto .get-more-info button:hover {
+  color: black;
+  background-color: #c5a06b;
+  font-weight: 600;
+  .gmi-pluto {
+    text-decoration: none;
+    color: black;
+  }
+}

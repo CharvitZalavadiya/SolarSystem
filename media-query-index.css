@@ -1,0 +1,170 @@
+/* 280-480 */
+/* 481-768 */
+/* 769-1024 */
+/* 1025-1320 */
+
+@media screen and (min-width: 1025px) and (max-width: 1320px) {
+  /* nothing */
+}
+
+/* 769-1024 */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container .solar-content {
+    font-size: 75px;
+  }
+
+  .card {
+    width: 35vw;
+  }
+
+  .card .card-img {
+    width: 34vw;
+  }
+
+  .container .planets .card img {
+    object-fit: cover;
+    width: 34vw;
+    height: 28vh;
+  }
+
+  .card .card-content {
+    width: 34.7vw;
+    height: 40vh;
+  }
+
+  .card .card-content h3 {
+    width: 34vw;
+    font-size: 30px;
+  }
+
+  .card .card-content h6 {
+    width: 34vw;
+  }
+
+  .get-more-info {
+    width: 34vw;
+  }
+
+  .get-more-info button {
+    width: 20vw;
+  }
+}
+
+/* 481-768 */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container .solar-content {
+    font-size: 50px;
+  }
+
+  .container .solar img {
+    object-fit: contain;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .card {
+    width: 65vw;
+  }
+
+  .card .card-img {
+    width: 64vw;
+  }
+
+  .container .planets .card img {
+    object-fit: cover;
+    width: 64vw;
+    height: 28vh;
+  }
+
+  .card .card-content {
+    width: 64.7vw;
+    height: 40vh;
+  }
+
+  .card .card-content h3 {
+    width: 64vw;
+    font-size: 40px;
+    height: 13vh;
+    align-items: center;
+  }
+
+  .card .card-content h6 {
+    width: 64vw;
+    height: 17vh;
+    font-size: 20px;
+  }
+
+  .get-more-info {
+    width: 64vw;
+  }
+
+  .get-more-info button {
+    width: 40vw;
+    font-size: 17px;
+  }
+}
+
+/* 280-480 */
+
+@media screen and (min-width: 280px) and (max-width: 480px) {
+  .container .solar-content {
+    font-size: 50px;
+  }
+
+  .card {
+    width: 65vw;
+    margin-left: 10vw;
+    height: 55vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .card .card-img {
+    width: 63vw;
+    height: 15vh;
+  }
+
+  .container .planets .card img {
+    object-fit: cover;
+    width: 63vw;
+    height: 20vh;
+  }
+
+  .card .card-content {
+    width: 64.7vw;
+    height: 25vh;
+    flex-direction: row;
+  }
+
+  .card .card-content h3 {
+    width: 64vw;
+    font-size: 40px;
+    height: 7vh;
+    align-items: center;
+  }
+
+  .card .card-content h6 {
+    width: 64vw;
+    height: 15vh;
+    font-size: 20px;
+  }
+
+  .get-more-info {
+    width: 64vw;
+  }
+
+  .get-more-info button {
+    width: 50vw;
+    font-size: 20px;
+    height: 7vh;
+    margin-top: -50px;
+  }
+
+  .planet-cards {
+    flex-direction: row;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+}

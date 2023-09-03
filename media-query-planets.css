@@ -1,0 +1,382 @@
+/* 1025-1320 */
+
+@media screen and (min-width: 1025px) and (max-width: 1320px) {
+  .description h1 {
+    width: 70vw;
+  }
+
+  .mercury-name {
+    font-size: 200px;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+  }
+
+  .mars-name {
+    font-size: 350px;
+  }
+
+  .jupiter-name {
+    font-size: 250px;
+  }
+
+  .saturn-name {
+    font-size: 250px;
+  }
+
+  .uranus-name {
+    font-size: 250px;
+  }
+
+  .neptune-name {
+    font-size: 200px;
+  }
+
+  .pluto-name {
+    font-size: 300px;
+  }
+}
+
+/* 769-1024 */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .description h1 {
+    width: 100vw;
+    font-size: 80px;
+  }
+
+  .container .info .icon{
+    height: 15vh;
+  }
+
+  .container .info .icon p{
+    font-size: 30px;
+  }
+
+  .sun-name {
+    font-size: 370px;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+  }
+
+  .mercury-name {
+    font-size: 160px;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+  }
+
+  .venus-name {
+    font-size: 230px;
+  }
+
+  .earth-name {
+    font-size: 240px;
+  }
+
+  .mars-name {
+    font-size: 270px;
+  }
+
+  .jupiter-name {
+    font-size: 180px;
+  }
+
+  .saturn-name {
+    font-size: 200px;
+  }
+
+  .uranus-name {
+    font-size: 180px;
+  }
+
+  .neptune-name {
+    font-size: 170px;
+  }
+
+  .pluto-name {
+    font-size: 250px;
+  }
+
+  .card {
+    width: 22vw;
+  }
+
+  .card .card-img {
+    width: 22vw;
+  }
+
+  .container .planets .card img {
+    object-fit: cover;
+    width: 20vw;
+    height: 28vh;
+  }
+
+  .card .card-content {
+    width: 21.5vw;
+    height: 20vh;
+  }
+
+  .card .card-content h3 {
+    width: 21.5vw;
+    font-size: 30px;
+  }
+
+  .get-more-info {
+    width: 21.5vw;
+  }
+
+  .get-more-info button {
+    width: 17vw;
+  }
+}
+
+/* 481-768 */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .description h1 {
+    width: 100vw;
+    font-size: 40px;
+    height: 10vh;
+  }
+
+  .sun-name {
+    font-size: 250px;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    -webkit-text-stroke: 4px orange;
+  }
+
+  .container .info .icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .container .info .icon p {
+    width: auto;
+    height: 12vh;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .mercury-name {
+    font-size: 100px;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    -webkit-text-stroke: 4px darkgrey;
+  }
+
+  .venus-name {
+    font-size: 140px;
+    -webkit-text-stroke: 4px #fada5e;
+  }
+
+  .earth-name {
+    font-size: 140px;
+    -webkit-text-stroke: 4px rgb(27, 168, 215);
+  }
+
+  .mars-name {
+    font-size: 170px;
+    -webkit-text-stroke: 4px #b93042;
+  }
+
+  .jupiter-name {
+    font-size: 120px;
+    -webkit-text-stroke: 4px #987654;
+  }
+
+  .saturn-name {
+    font-size: 120px;
+    -webkit-text-stroke: 4px #eed5b1;
+  }
+
+  .uranus-name {
+    font-size: 120px;
+    -webkit-text-stroke: 4px #088f8f;
+  }
+
+  .neptune-name {
+    font-size: 105px;
+    -webkit-text-stroke: 4px #3f3fce;
+  }
+
+  .pluto-name {
+    font-size: 150px;
+    -webkit-text-stroke: 4px #c5a06b;
+  }
+
+  .card {
+    width: 35vw;
+  }
+
+  .card .card-img {
+    width: 35vw;
+  }
+
+  .container .planets .card img {
+    object-fit: cover;
+    width: 33vw;
+    height: 28vh;
+  }
+
+  .card .card-content {
+    width: 34.5vw;
+    height: 20vh;
+  }
+
+  .card .card-content h3 {
+    width: 35vw;
+    font-size: 30px;
+  }
+
+  .get-more-info {
+    width: 35vw;
+  }
+
+  .get-more-info button {
+    width: 25vw;
+  }
+}
+
+/* 280-480 */
+
+@media screen and (min-width: 280px) and (max-width: 480px) {
+  .container .info .icon p {
+    height: auto;
+    font-size: 50px;
+  }
+
+  .description h1 {
+    width: 100vw;
+    font-size: 40px;
+    height: 15vh;
+  }
+
+  .description p {
+    font-size: 20px;
+  }
+
+  .sun-name {
+    font-size: 150px;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    -webkit-text-stroke: 3px orange;
+  }
+
+  .container .info .icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .container .info .icon p {
+    width: auto;
+    height: 12vh;
+    font-size: 20px;
+    margin-left: 0px;
+  }
+
+  .container .info .icon {
+    margin-left: 10px;
+  }
+
+  .mercury-name {
+    font-size: 65px;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    -webkit-text-stroke: 2px darkgrey;
+  }
+
+  .venus-name {
+    font-size: 90px;
+    -webkit-text-stroke: 3px #fada5e;
+  }
+
+  .earth-name {
+    font-size: 90px;
+    -webkit-text-stroke: 3px rgb(27, 168, 215);
+  }
+
+  .mars-name {
+    font-size: 100px;
+    -webkit-text-stroke: 3px #b93042;
+  }
+
+  .jupiter-name {
+    font-size: 70px;
+    -webkit-text-stroke: 3px #987654;
+  }
+
+  .saturn-name {
+    font-size: 80px;
+    -webkit-text-stroke: 3px #eed5b1;
+  }
+
+  .uranus-name {
+    font-size: 70px;
+    -webkit-text-stroke: 3px #088f8f;
+  }
+
+  .neptune-name {
+    font-size: 65px;
+    -webkit-text-stroke: 3px #3f3fce;
+  }
+
+  .pluto-name {
+    font-size: 90px;
+    -webkit-text-stroke: 3px #c5a06b;
+  }
+
+  .card {
+    width: 64vw;
+    height: 40vh;
+    margin-left: -4vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .card .card-img {
+    width: 62vw;
+    height: 20vh;
+  }
+
+  .container .planets .card img {
+    object-fit: cover;
+    width: 62vw;
+    height: 20vh;
+  }
+
+  .card .card-content {
+    width: 63vw;
+    height: 10vh;
+    flex-direction: row;
+  }
+
+  .card .card-content h3 {
+    width: 63vw;
+    font-size: 30px;
+    height: 10vh;
+  }
+
+  .get-more-info {
+    width: 63vw;
+    margin-top: -5vh;
+  }
+
+  .get-more-info button {
+    width: 45vw;
+    height: 5vh;
+    font-size: 17px;
+  }
+
+  .planet-cards {
+    flex-direction: row;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+}
